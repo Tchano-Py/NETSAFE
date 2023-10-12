@@ -1,0 +1,66 @@
+name: netsafe
+description: Trabalho de Kizola, UI/UX. Desenvolvido por Cristiano Fula Mariano(Tchano Py) Mobile developer 
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+   - assets/images/logo.png
+   - assets/images/logo_2.png
+   - assets/images/Rectangle_35.png
+   - assets/images/ooui_network.png
+   - assets/images/Vector.png
+   - assets/images/ion_chevron-back.png
+   - assets/images/uil_info.png
+   - assets/images/Chart.png
+   - assets/images/quill_off.png 
+   
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf  
+        - asset: assets/fonts/Poppins-Bold.ttf  
+        - asset: assets/fonts/Poppins-Black.ttf 
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf  
+        - asset: assets/fonts/Montserrat-Bold.ttf  
+        - asset: assets/fonts/Montserrat-Black.ttf 
+        
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
